@@ -1,4 +1,6 @@
-import FunctionalLifeCycleHooks from "./components/FunctionalLifeCycleHooks";
+import FormikSample from "./components/FormikSample";
+import Forms from "./components/Forms";
+import NewFormikSample from "./components/NewFormikSample";
 
 function App() {
   const person = {
@@ -8,7 +10,9 @@ function App() {
   };
   return (
     <div className="App">
- <FunctionalLifeCycleHooks></FunctionalLifeCycleHooks>
+      <Forms></Forms>
+      <FormikSample></FormikSample>
+      <NewFormikSample></NewFormikSample>
     </div>
   );
 }
