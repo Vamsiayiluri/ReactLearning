@@ -1,4 +1,4 @@
-import ReactHookForm from "./components/ReactHookForm";
+import AxiosSample from "./components/AxiosSample";
 
 function App() {
   const person = {
@@ -8,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <ReactHookForm></ReactHookForm>
+      <AxiosSample></AxiosSample>
     </div>
   );
 }
