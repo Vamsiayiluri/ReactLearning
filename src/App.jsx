@@ -1,14 +1,9 @@
-import LoopArray from "./components/LoopArray";
+import ClassLifeCycleMethods from "./components/ClassLifeCycleMethods";
 
 function App() {
-  const person = {
-    name: "vamsi",
-    message: "Hello",
-    seatNumbers: [1, 2, 3],
-  };
   return (
     <div className="App">
-      <LoopArray />
+      <ClassLifeCycleMethods></ClassLifeCycleMethods>
     </div>
   );
 }
