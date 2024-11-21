@@ -1,4 +1,4 @@
-import ConditionalComponent from "./components/ConditionalComponent";
+import LoopArray from "./components/LoopArray";
 
 function App() {
   const person = {
@@ -8,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <ConditionalComponent />
+      <LoopArray />
     </div>
   );
 }
