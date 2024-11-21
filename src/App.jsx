@@ -1,6 +1,4 @@
-import FormikSample from "./components/FormikSample";
-import Forms from "./components/Forms";
-import NewFormikSample from "./components/NewFormikSample";
+import ReactHookForm from "./components/ReactHookForm";
 
 function App() {
   const person = {
@@ -10,9 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Forms></Forms>
-      <FormikSample></FormikSample>
-      <NewFormikSample></NewFormikSample>
+      <ReactHookForm></ReactHookForm>
     </div>
   );
 }
