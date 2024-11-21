@@ -1,14 +1,17 @@
-import TemperatureCalculator from "./components/temperatureCalculator";
+import Context from "./Context";
+import Login from "./Login";
+import Logout from "./Logout";
+
+import { UserProvider } from "./context/UserContext";
 
 function App() {
-  const person = {
-    name: "vamsi",
-    message: "Hello",
-    seatNumbers: [1, 2, 3],
-  };
   return (
     <div className="App">
-      <TemperatureCalculator></TemperatureCalculator>
+      <UserProvider>
+        <Login></Login>
+        <Context></Context>
+        <Logout></Logout>
+      </UserProvider>
     </div>
   );
 }
