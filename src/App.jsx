@@ -1,4 +1,4 @@
-import EventHandling from "./components/EventHandling";
+import ConditionalComponent from "./components/ConditionalComponent";
 
 function App() {
   const person = {
@@ -8,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <EventHandling />
+      <ConditionalComponent />
     </div>
   );
 }
