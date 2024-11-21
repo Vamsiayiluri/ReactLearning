@@ -1,10 +1,14 @@
-import Counter from "./components/Counter";
+import EventHandling from "./components/EventHandling";
 
 function App() {
+  const person = {
+    name: "vamsi",
+    message: "Hello",
+    seatNumbers: [1, 2, 3],
+  };
   return (
     <div className="App">
-      {/* <Greet person={person} /> */}
-      <Counter></Counter>
+      <EventHandling />
     </div>
   );
 }
